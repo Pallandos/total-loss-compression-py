@@ -18,6 +18,11 @@ classifiers = [
 license = "GPL-3.0-or-later"
 license-files = ["LICEN[CS]E*"]
 
+dependencies = [
+    "google-genai",
+    "pillow>=10.2.0",
+]
+
 [project.urls]
 Homepage = "https://github.com/pallandos/total-loss-compression-py"
 Issues = "https://github.com/pallandos/total-loss-compression-py/issues"

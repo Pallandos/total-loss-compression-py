@@ -1,4 +1,2 @@
-pillow
-requests
-openai
-google-generativeai
+pillow>=10.2.0
+google-genai
