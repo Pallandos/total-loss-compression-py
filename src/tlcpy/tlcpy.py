@@ -2,19 +2,19 @@ from google import genai
 from PIL import Image
 import io
 
-def compress(image_path: str, gemini_api_key: str, prompt: str = "Describe this image in a detailed and effective way.") -> str:
+def compress(image_path: str, gemini_api_key: str) -> str:
     """
     Compress an image by sending it to the Gemini AI and returns its description.
     
     Args:
         image_path (str): The local path to the image (e.g., 'photo.jpg').
         gemini_api_key (str): Your Google API key.
-        prompt (str): The instruction given to the AI.
         
     Returns:
         str: The text description of the image. It will be used to unzip the image.
     """
     client = genai.Client(api_key=gemini_api_key)
+    prompt= "Describe the image in a short and effective way. Make it one pragraph, describe it as a prompt to regenerate the same exact image."
     
     try:
         img = Image.open(image_path)
