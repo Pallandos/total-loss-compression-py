@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tlcpy"
+version = "0.0.1"
+authors = [
+  { name="Pallandos", email="contact@pallandos.dev" },
+]
+description = "Extreme image compression library, with extreme loss"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/pallandos/total-loss-compression-py"
+Issues = "https://github.com/pallandos/total-loss-compression-py/issues"
