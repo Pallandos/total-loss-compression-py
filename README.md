@@ -6,7 +6,7 @@ Thanks to `tlcPy` you can now compress images with enormous ratio. Using frontli
 
 For exammple, we want to compress the following image :
 
-![lenna_base](doc/imgs/lenna.png)
+![lenna_base](./doc/imgs/lenna.png)
 
 The amazing `compress()` function compresses the image into :
 
@@ -18,7 +18,7 @@ The image weights **473kB** and the compressed version is only **663B** ! It rep
 
 To unzip the image, we use the `unzip()` function with the following result :
 
-![lenna_unziped](doc/imgs/lenna_unzipped.jpeg)
+![lenna_unziped](./doc/imgs/lenna_unzipped.jpeg)
 
 
 Pretty good :)
