@@ -1,6 +1,6 @@
-# tlcPy : Total Loss Compression
+# tlcompression : Total Loss Compression
 
-Thanks to `tlcPy` you can now compress images with enormous ratio. Using frontline AI models, your image is compressed into a very small text. To unzip the image, we ask AI to recreate the image based on the prompt. See below for usage and example.
+Thanks to `tlcompression` you can now compress images with enormous ratio. Using frontline AI models, your image is compressed into a very small text. To unzip the image, we ask AI to recreate the image based on the prompt. See below for usage and example.
 
 ## Example
 

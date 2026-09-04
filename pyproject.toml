@@ -3,8 +3,8 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "tlcpy"
-version = "0.0.1"
+name = "tlcompression"
+version = "0.1.0"
 authors = [
   { name="Pallandos", email="contact@pallandos.dev" },
 ]
